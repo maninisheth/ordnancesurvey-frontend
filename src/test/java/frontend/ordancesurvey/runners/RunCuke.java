@@ -8,7 +8,8 @@ import io.cucumber.testng.CucumberOptions;
         plugin = {"html:target/cucumber-reports/cucumber.html",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
                 "rerun:target/rerun.txt"},
-        tags = "@sanity"
+
+        tags = "@regression"
 
 )
 public class RunCuke extends AbstractTestNGCucumberTests {
